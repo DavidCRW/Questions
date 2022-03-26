@@ -1,0 +1,48 @@
+/* Main settings */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+
+
+/* Container */
+.questionBox{
+    max-width: 500px;
+    margin: 8rem auto;
+}
+.questionBox h1{
+    text-align: center;
+    font-family: 'Hurricane', cursive;
+    color: #c59d5f;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+.question{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem;
+    color: hsl(209, 61%, 16%);
+    text-transform: uppercase;
+}
+.align{
+    float: right;
+}
+.text{
+    display: none;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: hsl(210, 22%, 49%);
+    font-size: 1rem;
+    text-transform: none;
+}
+.show{
+    display: block;
+}
